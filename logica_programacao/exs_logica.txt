@@ -1,0 +1,52 @@
+Exercício 1
+
+X, Y, Z -> numéricos
+W, Q -> lógicos (booleanos)
+
+X = 345 % 23
+Y = X + 5 * 2
+Z = (Y / 3) + X
+W = (Z - X) > (Y % 4)
+Q = !W || (Z == Y * 2)
+
+X = X + 10
+Q = Q && (X % 2 == 0)
+
+Qual o valor de X, Y, Z, W e Q?
+
+
+Exercício 2
+
+M, N, P -> numéricos
+R, S -> lógicos (booleanos)
+
+M = 512 % 7
+N = M * 3 + 1
+P = (N / 2) - M
+R = (P + N) <= (M * 5)
+S = !(R && (P % 3 == 0))
+
+M = M * 2
+R = S || (N > P * 3)
+
+Qual o valor de M, N, P, R e S?
+
+
+Exercício 3 (mais complexo)
+
+A, B, C, D -> numéricos
+X, Y, Z -> lógicos (booleanos)
+
+A = (500 % 27) + (14 * 2)
+B = A / 3 + (A % 4) * 2
+C = (B * A) - (B % 5) + 7
+D = (C // A) * (B - A % 3)
+
+X = (D + C) > (A * 2) && (B % 2 == 0)
+Y = !(X || (D < C / 2)) && (B + A < C)
+Z = (X && !Y) || (C % 7 == 0)
+
+A = A * 2 - B
+Y = Y || (A % 3 == 1)
+
+Qual o valor de A, B, C, D, X, Y e Z?
