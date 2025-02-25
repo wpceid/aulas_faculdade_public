@@ -1,0 +1,22 @@
+Exercício 1
+X = 10
+Y = 10
+Z = 3
+W = true
+Q = false
+
+Exercício 2
+M = 4
+N = 13
+P = 2
+R = true
+S = true
+
+Exercício 3 (Desafio Avançado)
+A = 44
+B = 14
+C = 631
+D = 42
+X = true
+Y = false
+Z = true
