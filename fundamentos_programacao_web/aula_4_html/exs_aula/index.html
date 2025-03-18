@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Meu primeiro formulário</h1>
+    
+    <form action="sucess.html" method="get">
+
+        <h2>Dados Pessoais</h2>
+
+        <label for="nome-campo">Nome: </label>
+        <input id="nome-campo" type="text" placeholder="Digite seu nome" required>
+
+        <br><br>
+        
+        <label for="email-campo">Email: </label>
+        <input id="email-campo" type="email" placeholder="Digite seu email" required>
+        
+        <br><br>
+        
+        <label for="senha-campo">Senha: </label>
+        <input id="senha-campo" type="password" placeholder="Digite sua senha" required>
+
+        <br><br>
+
+        <label for="data-nasc">Data de nascimento: </label>
+        <input id="data-nasc" type="date" required>
+
+        <br><br>
+
+        <h2>Genero:</h2>
+
+            <input id="genero-campo" type="radio" name="genero" value="masculino" required>
+            <label for="genero-campo">Masculino</label>
+
+            <input id="genero-campo" type="radio" name="genero" value="feminino" required>
+            <label for="genero-campo">Feminino</label>
+
+            <input id="genero-campo" type="radio" name="genero" value="outros" required>
+            <label for="genero-campo">Outros</label>
+        
+        <br><br>
+
+        <h2>Selecione suas redes sociais: </h2>
+
+        <input type="checkbox" name="redes-sociais" value="facebook" required>
+        <label for="redes-sociais">Facebook</label>
+
+        <input type="checkbox" name="redes-sociais" value="instagram" required>
+        <label for="redes-sociais">Instagram</label>
+
+        <input type="checkbox" name="redes-sociais" value="x" required>
+        <label for="redes-sociais">X</label>
+
+        <br><br>
+
+        <h2>Selecione sua faculdade: </h2>
+        <select>
+            <option value="USF">USF</option>
+            <option value="UAM">UAM</option>
+            <option value="UNIFAAT">UNIFAAT</option>
+            <option disabled value="VASP">VASP</option>
+        </select>
+
+        <br><br>
+        <input type="checkbox" required name="termos">
+        <label for="termos">Concordo com os
+            <a href="termos.html">termos de uso</a>
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
