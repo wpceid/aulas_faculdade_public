@@ -1,0 +1,13 @@
+TIPOS DE SELETORES
+1. Seletor Universal (*)
+2. Seletor de Tipo (Tag)
+3. Seletor de Classe (.)
+4. Seletor de ID (#)
+5. Seletor de Atributo
+6. Seletor Descendente (espaço)
+7. Seletor Filho (>)
+8. Seletor de Irmão Adjacente (+)
+9. Seletor de Irmão Geral (~)
+10. Seletor de Grupo (,)
+11. Pseudo-classes (:)
+12. Pseudo-elementos (::)
