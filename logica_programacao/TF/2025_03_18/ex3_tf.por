@@ -14,25 +14,25 @@ programa
 
 		escolha (item) {
 			caso 1:
-			preco = 30
+			preco = 30.0
 			nome_item = "hambúrguer"
 			escreva("Você pediu "+nome_item+", e o preço total é: R$ "+preco+".")
 			pare
 
 			caso 2:
-			preco = 80
+			preco = 80.0
 			nome_item = "pizza"
 			escreva("Você pediu "+nome_item+", e o preço total é: R$ "+preco+".")
 			pare
 
 			caso 3:
-			preco = 15
+			preco = 15.50
 			nome_item = "batata frita"
 			escreva("Você pediu "+nome_item+", e o preço total é: R$ "+preco+".")
 			pare
 
 			caso 4:
-			preco = 20
+			preco = 20.10
 			nome_item = "refrigerante"
 			escreva("Você pediu "+nome_item+", e o preço total é: R$ "+preco+".")
 			pare
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10; 
+ * @POSICAO-CURSOR = 767; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
