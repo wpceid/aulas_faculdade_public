@@ -1,6 +1,20 @@
+.corpo{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .seletor{
     color: rgb(109, 128, 0);
     font-size: 20px;
     font-family: Arial, sans-serif;
     font-weight: bold;
+
+    border: solid 5px rgb(128, 0, 0)
+}
+
+.seletor2:hover{
+    background-color: rgb(0, 128, 117);
 }
