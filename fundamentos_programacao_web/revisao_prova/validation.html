@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultado do Quiz</title>
+</head>
+<body>
+  <h1>Resultado do Quiz</h1>
+  <ol>
+    <li>1. Resposta correta: C) ENIAC - <strong><span id="r1"></span></strong></li>
+    <li>2. Resposta correta: C) Calcular operações matemáticas - <strong><span id="r2"></span></strong></li>
+    <li>3. Resposta correta: C) Resistência a ataques nucleares - <strong><span id="r3"></span></strong></li>
+    <li>4. Resposta correta: C) Vinton Cerf e Robert Kahn - <strong><span id="r4"></span></strong></li>
+    <li>5. Resposta correta: C) 1983 - <strong><span id="r5"></span></strong></li>
+    <li>6. Resposta correta: C) Amazon - <strong><span id="r6"></span></strong></li>
+    <li>7. Resposta correta: C) Um conjunto de regras de comunicação - <strong><span id="r7"></span></strong></li>
+    <li>8. Resposta correta: C) HTTPS utiliza criptografia - <strong><span id="r8"></span></strong></li>
+    <li>9. Resposta correta: C) Página não encontrada - <strong><span id="r9"></span></strong></li>
+    <li>10. Resposta correta: C) Solicita dados sem alterar nada - <strong><span id="r10"></span></strong></li>
+  </ol>
+
+  <!-- Esse script simula resultado automático para teste -->
+  <script>
+    const respostasUsuario = ['C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C']; // Simuladas
+
+    respostasUsuario.forEach((resposta, index) => {
+      const id = `r${index + 1}`;
+      const span = document.getElementById(id);
+      if (resposta === 'C') {
+        span.textContent = '✔️ Correto';
+      } else {
+        span.textContent = '❌ Incorreto';
+      }
+    });
+  </script>
+</body>
+</html>
