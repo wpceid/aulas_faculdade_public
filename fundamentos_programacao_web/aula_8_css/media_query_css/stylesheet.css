@@ -1,0 +1,15 @@
+.nav {
+    background-color: rgb(255, 255, 255);
+}
+
+#logo_unifaat_header {
+    justify-content: left;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
