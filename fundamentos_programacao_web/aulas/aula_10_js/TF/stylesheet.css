@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(137, 192, 187);
+}
+
+button{    width: 100%;}
+
+.container1 {
+  display: flex; /* Enables CSS flexbox */
+  flex-direction: row;
+  justify-content: space-between; /* Centers horizontally */
+  flex-direction: column;
+  display: inline-block;
+  background-color: yellow;
+}
+
+.container2 {
+  display: flex; /* Enables CSS flexbox */
+  justify-content: space-between; /* Centers horizontally */
+  flex-direction: column;
+  display: inline-block;
+  background-color: brown;
+}
