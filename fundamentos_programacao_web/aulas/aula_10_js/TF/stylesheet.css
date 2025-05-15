@@ -23,6 +23,12 @@ body{
     flex-direction: column;
 }
 
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    text-align: center;
+}
+
 .glow-on-hover {
     border: none;
     outline: none;
