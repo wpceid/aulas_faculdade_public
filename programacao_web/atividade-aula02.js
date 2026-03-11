@@ -29,7 +29,7 @@ console.log("O valor da variável f é: " + f + " e o tipo dela é: " + typeof f
 const g1 = Symbol("id");
 const g2 = Symbol("id");
 
-console.log("A comparação entre as duas variáveis: " + g1 === g2);
+console.log("A comparação entre as duas variáveis: " + (g1 === g2));
 console.log("O tipo das variáveis: " + typeof g1);
 /* Espera-se que o resultado falso e symbol*/
 
