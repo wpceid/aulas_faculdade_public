@@ -1,0 +1,36 @@
+{
+  "universidade": {
+    "campus": {
+      "faculdade": {
+        "departamento": {
+          "curso": {
+            "periodo": {
+              "disciplina": {
+                "unidade": {
+                  "modulo": {
+                    "aula": {
+                      "topico": {
+                        "subtopico": {
+                          "conteudo": {
+                            "recurso": {
+                              "detalhes": {
+                                "titulo": "Introdução a Bancos de Dados",
+                                "descricao": "Exemplo de estrutura de dados aninhada em 15 níveis.",
+                                "arquivo": "niveis.json",
+                                "atualizacao": "2026-04-22"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
